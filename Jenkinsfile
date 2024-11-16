@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO = 'https://github.com/ajacdev/proyectoReservas.git'
+        GIT_REPO = 'https://github.com/ajacdev/proyecto-certificacion.git'
         GIT_BRANCH = 'main'
     }
 
