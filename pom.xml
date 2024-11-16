@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.madsoftware</groupId>
-	<artifactId>proyecto-final</artifactId>
+	<artifactId>proyecto-certificacion</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>proyecto-final</name>
+	<name>proyecto-certificacion</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -67,14 +67,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!--<plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.9.1.2184</version>
-            </plugin>
+            </plugin>-->
 		</plugins>
 	</build>
-	<repositories>
+	<!-- <repositories>
         <repository>
             <id>td-maven-repo</id>
             <url>http://192.168.1.116:8081/repository/td-maven-repo/</url>
@@ -95,6 +95,6 @@
             <id>td-maven-repo</id>
             <url>http://192.168.1.116:8081/repository/td-maven-repo/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
 
 </project>

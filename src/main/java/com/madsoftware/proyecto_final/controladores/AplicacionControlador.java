@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class AplicacionControlador {
 
-    @GetMapping("/bienvenida")
+    @GetMapping("/")
     public String mostrarBienvenida(Model modelo) {
         System.out.println("ejecutando bienvenida");
 
