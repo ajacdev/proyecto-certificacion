@@ -19,7 +19,7 @@ resource "docker_image" "proyecto_certificacion_image" {
 }
 
 resource "docker_container" "proyecto_certificacion_container" {
-  image = docker_image.proyecto_certificacion_image.latest
+  image = docker_image.proyecto_certificacion_image.name
   name  = "proyecto-certificacion"
   ports {
     internal = 8080
